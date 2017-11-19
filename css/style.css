@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    width: 70%;
+    min-width: 600px;
+    margin: auto;
+}
+
+.input {
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    border: 2px solid green;
+    background: lightgreen;
+}
+
+.input span {
+    font-weight: bold;
+}
+
+.input > div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.input input {
+    padding: 5px;
+    font-size: 1.3em;
+    text-align: right;
+    border: 2px solid green;
+    border-radius: 5px;
+    outline: none;
+}
+
+.name {
+    width: 505px;    
+}
+
+#inputDate {
+    width: 210px;
+}
+
+.che-time {
+    margin-top: 5px;
+    border: 2px solid green;
+}
+
+.header {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header .text, .header .days {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 47%;
+}
+
+.header .text {
+    margin-left: 2%;
+}
+
+.header .days {    
+    text-align: right;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.table {
+    border: 2px solid green;
+}
+
+.head-row {
+    font-weight: bold;
+    background: lightgreen;    
+}
+
+.row  {
+    border-top: 1px solid green;
+    font-size: 0.9em;
+}
+
+.cell {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+}
+
+.event, .actualDate {
+    width: 30%;    
+}
+
+.dates > table {
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.print {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.print > button {
+    cursor: pointer;
+    margin: auto;
+    width: 150px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px solid green;
+    border-radius: 5px;
+    background: lightgreen;
+}
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    #ftTable {
+        page-break-after: always;
+    }
+
+    @page {
+        size: auto;
+        margin: 10mm;
+    }
+}

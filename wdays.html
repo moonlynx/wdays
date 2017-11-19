@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>WDays</title>
+
+    <link rel="stylesheet" href="css\datepicker.css">
+    <link rel="stylesheet" href="css\style.css">
+    
+    <script src="js\jquery-3.2.1.min.js"></script>
+    <script src="js\datepicker.js"></script>
+    <script src="js\config.js"></script>
+    <script src="js\helpers.js"></script>
+    <script src="js\init.js"></script>
+</head>
+<body>
+  <div class = "content">
+    <div class="input">
+      <div>
+        <span>ФИО:</span>
+        <input type="text" class="name">
+      </div>
+      <div>
+        <span>Дата начала последней менструации:</span>
+        <input type="text" id="inputDate" placeholder="введите дату">
+      </div>
+    </div>
+    <div class = "che-time">
+      <div class = "header">
+        <div class = "text" id="dekretDescription"></div>
+        <div class = "days" id="dekretDay">-</div>
+      </div>
+      <div class = "header">
+        <div class = "text" id="pdrDescription"></div>
+        <div class = "days" id="pdrDay">-</div>
+      </div>
+    </div>
+    <div class = "header">
+      <div class = "text" id="ftDescription"></div>
+      <div class = "days" id="ftDays">-</div>
+    </div>
+    <div class = "table" id="ftTable">
+      <div class = "head-row">
+        <div class = "cell event">Обследование</div>
+        <div class = "cell">Недели беременности</div>
+        <div class = "cell dates">Даты для проведения</div>
+        <div class = "cell actualDate">Фактическая дата обследования</div>
+      </div>
+    </div>
+    <div class = "header">
+      <div class = "text" id="stDescription"></div>
+      <div class = "days" id="stDays">-</div>
+    </div>
+    <div class = "table" id="stTable">
+      <div class = "head-row">
+        <div class = "cell event">Обследование</div>
+        <div class = "cell">Недели беременности</div>
+        <div class = "cell dates">Даты для проведения</div>
+        <div class = "cell actualDate">Фактическая дата обследования</div>
+      </div>
+    </div>
+    <div class = "header">
+      <div class = "text" id="ttDescription"></div>
+      <div class = "days" id="ttDays">-</div>
+    </div>
+    <div class = "table" id="ttTable">
+      <div class = "head-row">
+        <div class = "cell event">Обследование</div>
+        <div class = "cell">Недели беременности</div>
+        <div class = "cell dates">Даты для проведения</div>
+        <div class = "cell actualDate">Фактическая дата обследования</div>
+      </div>
+    </div>
+    <div class = "print no-print">
+        <button id="printBtn">Печать</button>
+    </div> 
+  </div>   
+</body>
+</html>
