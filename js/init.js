@@ -7,9 +7,7 @@ $(document).ready(function() {
         pdr = "pdr",
         week = "week",
         startDayId = "startDay",
-        lastDayId = "lastDay",
-        startDayWrapperClass = "startDayWrapper",
-        lastDayWrapperClass = "lastDayWrapper";
+        lastDayId = "lastDay";
 
   var dDays = DDays(),
       periods = Periods(),
