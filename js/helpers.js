@@ -1,16 +1,17 @@
 function formatDate(date) {
+  /*
     var monthNames = [
         "Января", "Февраля", "Марта",
         "Апреля", "Мая", "Июня", "Июля",
         "Августа", "Сентября", "Октября",
         "Ноября", "Декабря"
     ];
-    
+  */
     var day = date.getDate(),
         monthIndex = date.getMonth(),
         year = date.getFullYear();
     
-    return day + ' ' + monthNames[monthIndex] + ' ' + year;
+    return day + '.' + (monthIndex + 1) + '.' + year;
   }
   
   function getDay(date, week, isEndWeek) {
