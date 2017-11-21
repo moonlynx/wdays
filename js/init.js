@@ -6,6 +6,8 @@ $(document).ready(function() {
         dekret = "dekret",
         pdr = "pdr",
         week = "week",
+        regDate = "regDate",
+        tubDisp = "tubDisp",
         startDayId = "startDay",
         lastDayId = "lastDay";
 
@@ -35,6 +37,8 @@ $(document).ready(function() {
 
   $("#dekretDescription").text(dDays[dekret][description]);
   $("#pdrDescription").text(dDays[pdr][description]);
+  $("#regDateDescription").text(dDays[regDate][description]);
+  $("#tubDispDescription").text(dDays[tubDisp][description]);
 
   periods.forEach(function(period) {
     var id = "#" + period["prefix"] + "Description",
