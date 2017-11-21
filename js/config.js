@@ -26,88 +26,23 @@ function Periods() {
             "events": [
                 {
                     "description": "Общий клинический анализ крови развернутый",
-                    "firstWeek": 11,
-                    "lastWeek":   14
+                    "firstWeek": 8,
+                    "lastWeek":   10
                 },
  		        {
-                    "description": "Анализ крови биохимический",
-                    "firstWeek": 11,
-                    "lastWeek": 14
+                    "description": "Консультация смежных специалистов",
+                    "firstWeek": 8,
+                    "lastWeek": 10
                 },
                 {
-                    "description": "Коагулограмма",
-                    "firstWeek": 11,
-                    "lastWeek":  14
+                    "description": "Посевы (зев, нос, ц.канал)",
+                    "firstWeek": 8,
+                    "lastWeek":  10
                 },
                 {
-                    "description": "Определение антител классов М и G  к вирусу краснухи в крови, антител к токсоплазме в крови",
-                    "firstWeek": 11,
-                    "lastWeek":  14
-                },
-		        {
-                    "description": "Общий анализ мочи",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-		        {
-                    "description": "Плазменный протеин А(PAPP-A) и бета-ХГ",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-		        {
-                    "description": "RW, HBsAg, НCV, Ф-50",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-		        {
-                    "description": "Мазок на флору",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-		        {
-                    "description": "ЭКГ",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-		        {
-                    "description": "УЗИ малого таза",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-                {
-                    "description": "Мазок на онкоцитологию",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-                {
-                    "description": "Осмотр и консультация оториноларинголога",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-                {
-                    "description": "Осмотр и консультация офтальмолога",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-                {
-                    "description": "Осмотр и консультация акушера-гинеколога",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-                {
-                    "description": "Осмотр и консультация стоматолога",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-                {
-                    "description": "Осмотр и консультация терапевтом",
-                    "firstWeek": 11,
-                    "lastWeek": 14
-                },
-                {
-                    "description": "Консультация психолога",
-                    "firstWeek": 11,
-                    "lastWeek": 14
+                    "description": "Скрининг I триместра + кровь на PAPP",
+                    "firstWeek": 12,
+                    "lastWeek":  12
                 },
                 /*
                 {
@@ -125,39 +60,19 @@ function Periods() {
             "lastWeek":  27,
             "events": [
                 {
-                    "description": "Общий клинический анализ крови развернутый",
-                    "firstWeek": 18,
-                    "lastWeek":  21
+                    "description": "Посев мочи",
+                    "firstWeek": 14,
+                    "lastWeek":  14
                 },
                 {
-                    "description": "Общий анализ мочи",
-                    "firstWeek": 18,
-                    "lastWeek":  21
+                    "description": "Кровь на АФП, RW, Ф-50",
+                    "firstWeek": 16,
+                    "lastWeek":  16
                 },
                 {
-                    "description": "Посев средней порции мочи на флору и чувствительность к антибиотикам после 14 недель",
-                    "firstWeek": 18,
-                    "lastWeek":  21
-                },
-                {
-                    "description": "ОГТП с 75 г. Глюкозы",
-                    "firstWeek": 24,
-                    "lastWeek":  28
-                },
-                {
-                    "description": "УЗИ малого таза",
-                    "firstWeek": 18,
-                    "lastWeek":  21
-                },
-                {
-                    "description": "Осмотр и консультация акушера-гинеколога",
-                    "firstWeek": 18,
-                    "lastWeek":  21
-                },
-                {
-                    "description": "Консультация психолога",
-                    "firstWeek": 18,
-                    "lastWeek":  21
+                    "description": "Скрининг II триместра",
+                    "firstWeek": 20,
+                    "lastWeek": 20
                 },
                 /*
                 {
@@ -175,64 +90,29 @@ function Periods() {
             "lastWeek":  43,
             "events": [
                 {
+                    "description": "Скрининг III триместра",
+                    "firstWeek": 32,
+                    "lastWeek":  32
+                },
+                {
                     "description": "Общий клинический анализ крови развернутый",
-                    "firstWeek": 30,
-                    "lastWeek":  34
+                    "firstWeek": 36,
+                    "lastWeek":  36
+                },                
+                {
+                    "description": "КТГ",
+                    "firstWeek": 38,
+                    "lastWeek":  38
                 },
                 {
-                    "description": "Анализ крови биохимический",
-                    "firstWeek": 30,
-                    "lastWeek":  34
+                    "description": "КТГ",
+                    "firstWeek": 39,
+                    "lastWeek":  39
                 },
                 {
-                    "description": "Коагулограмма",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "Определение антител классов М и G  к вирусу краснухи в крови, антител к токсоплазме в крови",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "Общий анализ мочи",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "RW, HBsAg, НCV, Ф-50",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "Мазок на флору",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "УЗИ малого таза",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "Кардиотокография после 33 недель беременности",
-                    "firstWeek": 33,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "Осмотр и консультация акушера-гинеколога",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "Осмотр и консультация терапевтом",
-                    "firstWeek": 30,
-                    "lastWeek":  34
-                },
-                {
-                    "description": "Консультация психолога",
-                    "firstWeek": 30,
-                    "lastWeek":  34
+                    "description": "КТГ",
+                    "firstWeek": 40,
+                    "lastWeek":  40
                 },
                 /*
                 {

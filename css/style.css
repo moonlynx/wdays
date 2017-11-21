@@ -5,7 +5,7 @@ body {
 
 .content {
     width: 70%;
-    min-width: 600px;
+    min-width: 650px;
     margin: auto;
 }
 
@@ -123,10 +123,6 @@ body {
 @media print {
     .no-print {
         display: none !important;
-    }
-    
-    #ftTable {
-        page-break-after: always;
     }
 
     @page {

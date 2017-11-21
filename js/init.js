@@ -43,8 +43,8 @@ $(document).ready(function() {
   periods.forEach(function(period) {
     var id = "#" + period["prefix"] + "Description",
         days = "#" + period["prefix"] + "Days",
-        table = "#" + period["prefix"] + "Table"; 
-    
+        table = "#" + period["prefix"] + "Table";
+        
     periodFields.push({
       "field": $(days),
       "firstWeek": period[firstWeek],
@@ -59,7 +59,8 @@ $(document).ready(function() {
           descriptionCell = $("<div>", {class: "cell event"}),
           weekCell = $("<div>", {class: "cell"}),
           datesCell = $("<div>", {class: "cell dates"}),
-          actualDateCell = $("<div>", {class: "cell"});
+          actualDateCell = $("<div>", {class: "cell"}),
+          weeksText;
 
       periodFields.push({
         "field": datesCell,
@@ -68,7 +69,14 @@ $(document).ready(function() {
       });
 
       descriptionCell.text(event[description]);
-      weekCell.text(event[firstWeek] + " - " + event[lastWeek]);
+
+      if (event[firstWeek] != event[lastWeek]) {
+        weeksText = event[firstWeek] + " - " + event[lastWeek];
+      } else {
+        weeksText = event[firstWeek];
+      }
+
+      weekCell.text(weeksText);
            
       datesCell.html(
         '<table>' +
