@@ -119,14 +119,3 @@ body {
     border-radius: 5px;
     background: lightgreen;
 }
-
-@media print {
-    .no-print {
-        display: none !important;
-    }
-
-    @page {
-        size: auto;
-        margin: 10mm;
-    }
-}
