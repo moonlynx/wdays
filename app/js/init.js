@@ -52,8 +52,7 @@ $(document).ready(function() {
     });
     
     $(id).text(period[description] + " (" + period[firstWeek] + " - " + period[lastWeek] + "):");
-    $(days).text("-");    
-    
+        
     period["events"].forEach(function(event) {
       var row = $("<div>", {class: "row"}),
           descriptionCell = $("<div>", {class: "cell event"}),
