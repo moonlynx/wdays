@@ -2,6 +2,10 @@
     display: none !important;
 }
 
+#stTable {
+    page-break-after: always;
+}
+
 @page {
     size: auto;
     margin: 10mm;
