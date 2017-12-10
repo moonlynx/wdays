@@ -30,14 +30,14 @@ function Periods() {
                     "lastWeek":   10
                 },
  		        {
-                    "description": "Консультация смежных специалистов: Лор, Окулист, Терапефт, Стоматолог",
-                    "firstWeek": 8,
-                    "lastWeek": 10
-                },
-                {
                     "description": "Посевы (зев, нос, ц.канал)",
                     "firstWeek": 8,
                     "lastWeek":  10
+                },
+                {
+                    "description": "Консультация смежных специалистов: Лор, Окулист, Терапефт, Стоматолог",
+                    "firstWeek": 8,
+                    "lastWeek": 10
                 },
                 {
                     "description": "Скрининг I триместра + кровь на PAPP",
