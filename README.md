@@ -13,7 +13,7 @@
 
 ## <a name="install">Установка</a>
 
-1. Скачать [архив](/blob/master/download/wdays.zip)
+1. Скачать [архив](download/wdays.zip)
 2. Разархивировать
 3. Открыть `wdays.html` в браузере
 
